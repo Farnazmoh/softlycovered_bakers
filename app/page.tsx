@@ -71,7 +71,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8">
               {[
                 { name: "Nan Khatai", desc: "Traditional butter cookies", price: "$15 For 1/2 KG", images: ["/Nan khatai.jpeg", "/Nan khatai2.jpeg", "/Nan khatai3.jpeg"] },
-                { name: "Osmania Biscuits", desc: "Classic tea-time biscuits", price: "$20 (12pcs) | $30 (18pcs)", images: ["/Osmania1.jpeg","/Osmania Buiscets.jpeg",  "/Osmania2.jpeg"] },
+                { name: "Osmania Biscuits", desc: "Classic tea-time biscuits", price: "$20 (12pcs) | $30 (18pcs)", images: ["/Osmania1.jpeg","/Osmania Biscuits.jpeg",  "/Osmania2.jpeg"] },
                 { name: "Dryfruits Vanilla Tea Cake", desc: "Rich vanilla cake loaded with premium dry fruits", price: "$45 / 1kg", images: ["/Dryfruits-Vanila tea cake.jpeg", "/DV2.jpeg", "/DV3.jpeg"] },
                 { name: "Double Chocolate Banana Bread", desc: "Moist banana bread with double chocolate chips", price: "$22", images: ["/Double chocolate Banana Bread.jpeg", "/D2.jpeg", "/D3.jpeg"] },
                 { name: "Small Pizza", desc: "Fresh and delicious personal pizzas", price: "Contact for price", images: ["/Pizza small.jpeg"] },
