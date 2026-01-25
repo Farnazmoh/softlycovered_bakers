@@ -31,10 +31,7 @@ export default function Home() {
             </div>
             {/* Right side - Text */}
             <div className="flex-1 text-right ml-8">
-              <h1 className="text-5xl md:text-6xl font-serif font-bold text-white drop-shadow-2xl mb-3">
-                Softly Covered<br/>Bakery
-              </h1>
-              <p className="text-gold-300 font-bold text-2xl drop-shadow-lg">
+              <p className="text-white font-bold text-2xl drop-shadow-lg">
                 ✨ Personalized baked goods made fresh daily  ✨
               </p>
             </div>
@@ -49,7 +46,7 @@ export default function Home() {
           <div className="relative rounded-3xl overflow-hidden shadow-2xl mb-16">
             <div className="h-96 relative">
               <Image 
-                src="/mainpage.jpg" 
+                src="/Mainpage.jpg" 
                 alt="Fresh Baked Goods"
                 fill
                 className="object-cover brightness-75"
@@ -94,8 +91,8 @@ export default function Home() {
             <h3 className="text-4xl font-serif font-bold text-brown-900 mb-8 text-center">Our Delicious Products</h3>
             <div className="grid md:grid-cols-2 gap-8">
               {[
-                { name: "Nan Khatai", desc: "Traditional butter cookies", price: "$15 For 1lb", images: ["/Nan khatai.jpeg", "/Nan khatai2.jpeg", "/Nan khatai3.jpeg"] },
-                { name: "Osmania Biscuits", desc: "Classic tea-time biscuits", price: "$20 (12pcs) | $30 (18pcs)", images: ["/Osmania Buiscets.jpeg", "/Osmania1.jpeg", "/Osmania2.jpeg"] },
+                { name: "Nan Khatai", desc: "Traditional butter cookies", price: "$15 For 1/2 KG", images: ["/Nan khatai.jpeg", "/Nan khatai2.jpeg", "/Nan khatai3.jpeg"] },
+                { name: "Osmania Biscuits", desc: "Classic tea-time biscuits", price: "$20 (12pcs) | $30 (18pcs)", images: ["/Osmania1.jpeg","/Osmania Buiscets.jpeg",  "/Osmania2.jpeg"] },
                 { name: "Dryfruits Vanilla Tea Cake", desc: "Rich vanilla cake loaded with premium dry fruits", price: "$45 / 1kg", images: ["/Dryfruits-Vanila tea cake.jpeg", "/DV2.jpeg", "/DV3.jpeg"] },
                 { name: "Double Chocolate Banana Bread", desc: "Moist banana bread with double chocolate chips", price: "$22", images: ["/Double chocolate Banana Bread.jpeg", "/D2.jpeg", "/D3.jpeg"] },
                 { name: "Small Pizza", desc: "Fresh and delicious personal pizzas", price: "Contact for price", images: ["/Pizza small.jpeg"] },
