@@ -42,27 +42,6 @@ export default function Home() {
       {/* Main Content */}
       <main className="py-16 px-6">
         <div className="max-w-3xl mx-auto">
-          {/* Hero */}
-          <div className="relative rounded-3xl overflow-hidden shadow-2xl mb-16">
-            <div className="h-96 relative">
-              <Image 
-                src="/Mainpage.jpg" 
-                alt="Fresh Baked Goods"
-                fill
-                className="object-cover brightness-75"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-brown-900/80 via-brown-900/40 to-transparent"></div>
-            </div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6">
-              <h2 className="text-6xl md:text-7xl font-serif font-bold text-white mb-4 drop-shadow-2xl">
-                Fresh Baked Goods
-              </h2>
-              <p className="text-3xl text-cream-100 font-semibold drop-shadow-lg">
-                🍕 Delivered to Your Door 🥐
-              </p>
-            </div>
-          </div>
-
           {/* About */}
           <div className="bg-white rounded-3xl shadow-2xl overflow-hidden mb-12 border-2 border-gold-200">
             <div className="grid md:grid-cols-2 gap-0">
