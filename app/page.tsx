@@ -56,10 +56,10 @@ export default function Home() {
               <div className="p-10 flex flex-col justify-center bg-gradient-to-br from-cream-50 to-white">
                 <h3 className="text-4xl font-serif font-bold text-brown-900 mb-6">About Our Kitchen</h3>
                 <p className="text-brown-700 text-xl mb-5 leading-relaxed">
-                  We're a <span className="font-bold text-brown-900">cloud kitchen</span> specializing in artisan baked goods made fresh daily. 
+                  We bake after you order with the cleanest ingredients possible. I take extra care to be as clean as possible and ensure every item is made fresh just for you.
                 </p>
                 <p className="text-brown-700 text-xl leading-relaxed">
-                  From our kitchen to your home 🏠 - quality breads, pastries, and treats delivered the same day! ⚡
+                  From our kitchen to your home 🏠 - quality cookies, bread, and treats delivered the same day! ⚡
                 </p>
               </div>
             </div>
