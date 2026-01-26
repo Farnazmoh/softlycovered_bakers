@@ -90,7 +90,7 @@ export default function Home() {
             <div className="relative z-10">
               <h3 className="text-4xl font-serif font-bold mb-4">Get in Touch</h3>
               <p className="text-cream-100 text-xl mb-6">
-                Ready to order? Contact us for delivery. 📦
+                Ready to order? Contact us. 📦
               </p>
               <div className="space-y-3 text-xl">
                 <p className="font-medium">📞 4378184742</p>
