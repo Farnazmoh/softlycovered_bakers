@@ -106,7 +106,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-8 px-6 text-center text-brown-700">
-        <p className="text-lg">✨ &copy; 2026 Softly Covered Bakery. Cloud Kitchen. ✨</p>
+        <p className="text-lg">✨ &copy; 2026 Softly Covered Bakery. ✨</p>
       </footer>
     </div>
   );
