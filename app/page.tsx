@@ -136,23 +136,26 @@ function ProductCard({ product }: { product: { name: string; desc: string; price
           <>
             <button 
               onClick={prevImage}
-              className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-brown-900 rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity shadow-lg"
+              className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-brown-900 rounded-full p-3 shadow-xl hover:scale-110 transition-all font-bold text-xl"
             >
               ←
             </button>
             <button 
               onClick={nextImage}
-              className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-brown-900 rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity shadow-lg"
+              className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-brown-900 rounded-full p-3 shadow-xl hover:scale-110 transition-all font-bold text-xl"
             >
               →
             </button>
-            <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-2">
+            <div className="absolute top-3 right-3 bg-brown-900/80 text-white px-3 py-1 rounded-full text-sm font-bold shadow-lg">
+              📸 {currentImageIndex + 1}/{product.images.length}
+            </div>
+            <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2 bg-brown-900/60 px-3 py-2 rounded-full">
               {product.images.map((_, idx) => (
                 <button
                   key={idx}
                   onClick={() => setCurrentImageIndex(idx)}
-                  className={`w-2 h-2 rounded-full transition-all ${
-                    idx === currentImageIndex ? 'bg-gold-500 w-6' : 'bg-white/60'
+                  className={`w-3 h-3 rounded-full transition-all ${
+                    idx === currentImageIndex ? 'bg-gold-400 w-8' : 'bg-white/70'
                   }`}
                 />
               ))}
