@@ -56,10 +56,10 @@ export default function Home() {
               <div className="p-10 flex flex-col justify-center bg-gradient-to-br from-cream-50 to-white">
                 <h3 className="text-4xl font-serif font-bold text-brown-900 mb-6">About Our Kitchen</h3>
                 <p className="text-brown-700 text-xl mb-5 leading-relaxed">
-                  We bake after you order with the cleanest ingredients possible. I take extra care to be as clean as possible and ensure every item is made fresh just for you.
+                  Every item is freshly baked to order, not mass-produced. We use premium ingredients, homemade bases and sauces, and traditional recipes to deliver authentic taste and quality in every bite. 
                 </p>
                 <p className="text-brown-700 text-xl leading-relaxed">
-                  From our kitchen to your home 🏠 - quality cookies, bread, and treats delivered the same day! ⚡
+                  Please place orders in advance for fresh preparation. ⚡
                 </p>
               </div>
             </div>
@@ -70,15 +70,16 @@ export default function Home() {
             <h3 className="text-4xl font-serif font-bold text-brown-900 mb-8 text-center">Our Delicious Products</h3>
             <div className="grid md:grid-cols-2 gap-8">
               {[
-                { name: "Nan Khatai", desc: "Traditional butter cookies", price: "$15 For (12pcs)", images: ["/Nan khatai.jpeg", "/Nan khatai2.jpeg", "/Nan khatai3.jpeg"] },
-                { name: "Osmania Biscuits", desc: "Classic tea-time biscuits", price: "$20 (12pcs) | $30 (18pcs)", images: ["/Osmania1.jpeg","/Osmania Biscuits.jpeg",  "/Osmania2.jpeg"] },
-                { name: "Coconut Biscuits", desc: "Delicious coconut flavored biscuits", price: "$14 / lb", images: ["/Coconut1.jpeg", "/coconut2.jpeg"] },
-                { name: "Salt Biscuits", desc: "Savory salted biscuits perfect for tea time", price: "$14 / lb", images: ["/saltB1.jpeg", "/saltb2.jpeg"] },
-                { name: "Dryfruits Vanilla Tea Cake", desc: "Rich vanilla cake loaded with premium dry fruits", price: "$45 / 1kg", images: ["/Dryfruits-Vanila tea cake.jpeg", "/DV2.jpeg", "/DV3.jpeg"] },
-                { name: "Double Chocolate Banana Bread", desc: "Moist banana bread with double chocolate chips", price: "$22", images: ["/D3.jpeg","/Double chocolate Banana Bread.jpeg", "/D2.jpeg" ] },
-                { name: "Butter Cake with Choco Chip", desc: "Soft butter cake studded with chocolate chips", price: "$20", images: ["/chocolatecake1.jpeg", "/chocolatecake2.jpeg", "/chocolatecake3.jpeg"] },
-                { name: "Small Pizza", desc: "Fresh and delicious personal pizzas", price: "Contact for price", images: ["/Pizza small.jpeg"] },
-                { name: "XXL Pizza", desc: "Perfect for sharing and parties", price: "Contact for price", images: ["/pizza xxl.jpeg"] },
+                { name: "Nan Khatai", desc: "Traditional butter cookies", price: "$14.99 For (12pcs)", images: ["/Nan khatai.jpeg", "/Nan khatai2.jpeg", "/Nan khatai3.jpeg"] },
+                { name: "Osmania Biscuits", desc: "Classic tea-time biscuits", price: "$19.99 (12pcs) | $29.99 (18pcs)", images: ["/Osmania1.jpeg","/Osmania Biscuits.jpeg",  "/Osmania2.jpeg"] },
+                { name: "Coconut Biscuits", desc: "Delicious coconut flavored biscuits", price: "$13.99 / lb", images: ["/Coconut1.jpeg", "/coconut2.jpeg"] },
+                { name: "Salt Biscuits", desc: "Savory salted biscuits perfect for tea time", price: "$13.99 / lb", images: ["/saltB1.jpeg", "/saltb2.jpeg"] },
+                { name: "Dryfruits Vanilla Tea Cake", desc: "Rich vanilla cake loaded with premium dry fruits", price: "$44.99 / 1kg", images: ["/Dryfruits-Vanila tea cake.jpeg", "/DV2.jpeg", "/DV3.jpeg"] },
+                { name: "Double Chocolate Banana Bread", desc: "Moist banana bread with double chocolate chips", price: "$21.99", images: ["/D3.jpeg","/Double chocolate Banana Bread.jpeg", "/D2.jpeg" ] },
+                { name: "Butter Cake with Choco Chip", desc: "Soft butter cake studded with chocolate chips", price: "$19.99", images: ["/chocolatecake1.jpeg", "/chocolatecake2.jpeg", "/chocolatecake3.jpeg"] },
+                { name: "Chicken Spring Rolls", desc: "Crispy chicken spring rolls (11 pcs)", price: "$19.99 (11 pcs)", images: ["/rolls.jpeg", "/rolls2.jpeg", "/rolls3.jpeg"] },
+                { name: "Medium Pizza", desc: "Fresh and delicious personal pizza | Base: $24.99 | Toppings: Marinated Chicken, Capsicum, Mushroom, Onion, Halapeño(option) | Marinated Chicken", price: "$24.99", images: ["/Pizza small.jpeg"] },
+                { name: "XL Pizza", desc: "Perfect for sharing and parties | Base: $34.99 | Toppings: Marinated Chicken, Capsicum, Mushroom, Onion, Halapeño(optional)  | Marinated Chicken ", price: "$34.99 ", images: ["/pizza xxl.jpeg"] },
               
             ].map((product, i) => (
                 <ProductCard key={i} product={product} />
