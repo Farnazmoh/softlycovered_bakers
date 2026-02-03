@@ -77,7 +77,7 @@ export default function Home() {
                 { name: "Dryfruits Vanilla Tea Cake", desc: "Rich vanilla cake loaded with premium dry fruits", price: "$44.99 / 1kg", images: ["/Dryfruits-Vanila tea cake.jpeg", "/DV2.jpeg", "/DV3.jpeg"] },
                 { name: "Double Chocolate Banana Bread", desc: "Moist banana bread with double chocolate chips", price: "$21.99", images: ["/D3.jpeg","/Double chocolate Banana Bread.jpeg", "/D2.jpeg" ] },
                 { name: "Butter Cake with Choco Chip", desc: "Soft butter cake studded with chocolate chips", price: "$19.99", images: ["/chocolatecake1.jpeg", "/chocolatecake2.jpeg", "/chocolatecake3.jpeg"] },
-                { name: "Chicken Spring Rolls", desc: "Crispy chicken spring rolls (11 pcs)", price: "$19.99 (11 pcs)", images: ["/rolls.jpeg", "/rolls2.jpeg", "/rolls3.jpeg"] },
+                { name: "Chicken Spring Rolls", desc: "Crispy chicken spring rolls (12 pcs)", price: "$20.00 (12 pcs)", images: ["/rolls.jpeg", "/rolls2.jpeg", "/rolls3.jpeg"] },
                 { name: "Medium Pizza", desc: "Fresh and delicious personal pizza | Base: $24.99 | Toppings: Marinated Chicken, Capsicum, Mushroom, Onion, Halapeño(optional) | Marinated Chicken", price: "$24.99", images: ["/Pizza small.jpeg"] },
                 { name: "XL Pizza", desc: "Perfect for sharing and parties | Base: $34.99 | Toppings: Marinated Chicken, Capsicum, Mushroom, Onion, Halapeño(optional)  | Marinated Chicken ", price: "$34.99 ", images: ["/pizza xxl.jpeg"] },
               
@@ -97,8 +97,8 @@ export default function Home() {
                 Ready to order? Contact us. 📦
               </p>
               <div className="space-y-3 text-xl">
-                <p className="font-medium">📞 4378184742</p>
-                <p className="font-medium">📍 Serving Your Area</p>
+                <p className="font-medium">📞 Click to contact</p>
+                <p className="font-medium">📍 Markham</p>
               </div>
               <a href="tel:4378184742" className="inline-block mt-8 bg-gradient-to-r from-gold-400 to-gold-600 hover:from-gold-500 hover:to-gold-700 text-white px-10 py-5 rounded-full text-xl font-bold transition-all shadow-xl hover:shadow-2xl transform hover:scale-105">
                 🛒 Place an Order
