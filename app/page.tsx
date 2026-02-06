@@ -78,8 +78,8 @@ export default function Home() {
                 { name: "Double Chocolate Banana Bread", desc: "Moist banana bread with double chocolate chips", price: "$21.99", images: ["/D3.jpeg","/Double chocolate Banana Bread.jpeg", "/D2.jpeg" ] },
                 { name: "Butter Cake with Choco Chip", desc: "Soft butter cake studded with chocolate chips", price: "$19.99", images: ["/chocolatecake1.jpeg", "/chocolatecake2.jpeg", "/chocolatecake3.jpeg"] },
                 { name: "Chicken Spring Rolls", desc: "Crispy chicken spring rolls (12 pcs)", price: "$20.00 (12 pcs)", images: ["/rolls.jpeg", "/rolls2.jpeg", "/rolls3.jpeg"] },
-                { name: "Medium Pizza", desc: "Fresh and delicious personal pizza | Base: $24.99 | Toppings: Marinated Chicken, Capsicum, Mushroom, Onion, Halapeño(optional) | Marinated Chicken", price: "$24.99", images: ["/Pizza small.jpeg"] },
-                { name: "XL Pizza", desc: "Perfect for sharing and parties | Base: $34.99 | Toppings: Marinated Chicken, Capsicum, Mushroom, Onion, Halapeño(optional)  | Marinated Chicken ", price: "$34.99 ", images: ["/pizza xxl.jpeg"] },
+                { name: "Medium Pizza", desc: "Fresh and delicious personal pizza | Base: $24.99 | Toppings: Marinated Chicken, Capsicum, Mushroom, Onion, Halapeño(optional)", price: "$24.99", images: ["/Pizza small.jpeg"] },
+                { name: "XL Pizza", desc: "Perfect for sharing and parties | Base: $34.99 | Toppings: Marinated Chicken, Capsicum, Mushroom, Onion, Halapeño(optional)", price: "$34.99 ", images: ["/pizza xxl.jpeg"] },
               
             ].map((product, i) => (
                 <ProductCard key={i} product={product} />
