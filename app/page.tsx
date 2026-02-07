@@ -80,6 +80,7 @@ export default function Home() {
                 { name: "Chicken Spring Rolls", desc: "Crispy chicken spring rolls (12 pcs)", price: "$20.00 (12 pcs)", images: ["/rolls.jpeg", "/rolls2.jpeg", "/rolls3.jpeg"] },
                 { name: "Medium Pizza", desc: "Fresh and delicious personal pizza | Base: $24.99 | Toppings: Marinated Chicken, Capsicum, Mushroom, Onion, Halapeño(optional)", price: "$24.99", images: ["/Pizza small.jpeg"] },
                 { name: "XL Pizza", desc: "Perfect for sharing and parties | Base: $34.99 | Toppings: Marinated Chicken, Capsicum, Mushroom, Onion, Halapeño(optional)", price: "$34.99 ", images: ["/pizza xxl.jpeg"] },
+                { name: "Bondi Laddu", desc: "Sugar-free traditional laddu made with jaggery and pure ghee", price: "$25.00 / 1 lb", images: ["/Laddu1.jpeg", "/laddu2.mp4", "/laddu3.mp4"] },
               
             ].map((product, i) => (
                 <ProductCard key={i} product={product} />
@@ -127,15 +128,29 @@ function ProductCard({ product }: { product: { name: string; desc: string; price
     setCurrentImageIndex((prev) => (prev - 1 + product.images.length) % product.images.length);
   };
 
+  const currentMedia = product.images[currentImageIndex];
+  const isVideo = currentMedia.endsWith('.mp4') || currentMedia.endsWith('.webm') || currentMedia.endsWith('.mov');
+
   return (
     <div className="bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-2 border-transparent hover:border-gold-400">
       <div className="h-64 relative overflow-hidden group">
-        <Image 
-          src={product.images[currentImageIndex]} 
-          alt={product.name}
-          fill
-          className="object-cover hover:scale-110 transition-transform duration-300"
-        />
+        {isVideo ? (
+          <video 
+            src={currentMedia}
+            className="w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+        ) : (
+          <Image 
+            src={currentMedia} 
+            alt={product.name}
+            fill
+            className="object-cover hover:scale-110 transition-transform duration-300"
+          />
+        )}
         {product.images.length > 1 && (
           <>
             <button 
