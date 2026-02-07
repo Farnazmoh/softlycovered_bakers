@@ -73,14 +73,14 @@ export default function Home() {
                 { name: "Nan Khatai", desc: "Traditional butter cookies", price: "$14.99 For (12pcs)", images: ["/Nan khatai.jpeg", "/Nan khatai2.jpeg", "/Nan khatai3.jpeg"] },
                 { name: "Osmania Biscuits", desc: "Classic tea-time biscuits", price: "$19.99 (12pcs) | $29.99 (18pcs)", images: ["/Osmania1.jpeg","/Osmania Biscuits.jpeg",  "/Osmania2.jpeg"] },
                 { name: "Coconut Biscuits", desc: "Delicious coconut flavored biscuits", price: "$13.99 / lb", images: ["/Coconut1.jpeg", "/coconut2.jpeg"] },
-                { name: "Salt Biscuits", desc: "Savory salted biscuits perfect for tea time", price: "$13.99 / lb", images: ["/saltB1.jpeg", "/saltb2.jpeg"] },
+                { name: "Salted Biscuits", desc: "Savory salted biscuits perfect for tea time", price: "$13.99 / lb", images: ["/saltB1.jpeg", "/saltb2.jpeg"] },
                 { name: "Dryfruits Vanilla Tea Cake", desc: "Rich vanilla cake loaded with premium dry fruits", price: "$44.99 / 1kg", images: ["/Dryfruits-Vanila tea cake.jpeg", "/DV2.jpeg", "/DV3.jpeg"] },
                 { name: "Double Chocolate Banana Bread", desc: "Moist banana bread with double chocolate chips", price: "$21.99", images: ["/D3.jpeg","/Double chocolate Banana Bread.jpeg", "/D2.jpeg" ] },
                 { name: "Butter Cake with Choco Chip", desc: "Soft butter cake studded with chocolate chips", price: "$19.99", images: ["/chocolatecake1.jpeg", "/chocolatecake2.jpeg", "/chocolatecake3.jpeg"] },
                 { name: "Chicken Spring Rolls", desc: "Crispy chicken spring rolls (12 pcs)", price: "$20.00 (12 pcs)", images: ["/rolls.jpeg", "/rolls2.jpeg", "/rolls3.jpeg"] },
                 { name: "Medium Pizza", desc: "Fresh and delicious personal pizza | Base: $24.99 | Toppings: Marinated Chicken, Capsicum, Mushroom, Onion, Halapeño(optional)", price: "$24.99", images: ["/Pizza small.jpeg"] },
                 { name: "XL Pizza", desc: "Perfect for sharing and parties | Base: $34.99 | Toppings: Marinated Chicken, Capsicum, Mushroom, Onion, Halapeño(optional)", price: "$34.99 ", images: ["/pizza xxl.jpeg"] },
-                { name: "Bondi Laddu", desc: "Sugar-free traditional laddu made with jaggery and pure ghee", price: "$25.00 / 1 lb", images: ["/Laddu1.jpeg", "/laddu2.mp4", "/laddu3.mp4"] },
+                { name: "Bondi Basket", desc: "Sugar-free traditional laddu made with jaggery and pure ghee", price: "$25.00 / 1 lb", images: ["/Laddu1.jpeg", "/laddu2.mp4", "/laddu3.mp4"] },
               
             ].map((product, i) => (
                 <ProductCard key={i} product={product} />
