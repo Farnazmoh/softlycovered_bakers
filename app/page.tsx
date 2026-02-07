@@ -81,6 +81,7 @@ export default function Home() {
                 { name: "Medium Pizza", desc: "Fresh and delicious personal pizza | Base: $24.99 | Toppings: Marinated Chicken, Capsicum, Mushroom, Onion, Halapeño(optional)", price: "$24.99", images: ["/Pizza small.jpeg"] },
                 { name: "XL Pizza", desc: "Perfect for sharing and parties | Base: $34.99 | Toppings: Marinated Chicken, Capsicum, Mushroom, Onion, Halapeño(optional)", price: "$34.99 ", images: ["/pizza xxl.jpeg"] },
                 { name: "Bondi Basket", desc: "Sugar-free traditional laddu made with jaggery and pure ghee", price: "$25.00 / 1 lb", images: ["/Laddu1.jpeg", "/laddu2.mp4", "/laddu3.mp4"] },
+                { name: "Boondi Laddu", desc: "Traditional sweet made with gram flour pearls and sugar syrup", price: "$26.99 / 1 lb", images: ["/boondi1.jpeg", "/boondi2.jpeg", "/boondi3.jpeg", "/boondi4.mp4"] },
               
             ].map((product, i) => (
                 <ProductCard key={i} product={product} />
